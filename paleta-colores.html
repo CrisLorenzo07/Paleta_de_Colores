@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paleta de Colores</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f4f4f4;
+    }
+    .palette {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 15px;
+    }
+    .color-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+      border-radius: 8px;
+      background-color: #ffffff;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .color-sample {
+      width: 100px;
+      height: 100px;
+      border-radius: 6px;
+      margin-bottom: 10px;
+    }
+    .color-name {
+      font-size: 14px;
+      color: #333;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Paleta de Colores</h1>
+  <div class="palette">
+    <!-- Colores clásicos -->
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #4CB8B3;"></div>
+      <div class="color-name">Verde Turquesa (#4CB8B3)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #F53756;"></div>
+      <div class="color-name">Rosa Fuerte (#F53756)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #FDDA00;"></div>
+      <div class="color-name">Amarillo Brillante (#FDDA00)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #752F97;"></div>
+      <div class="color-name">Morado Oscuro (#752F97)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #000000;"></div>
+      <div class="color-name">Negro (#000000)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #FFFFFF; border: 1px solid #ccc;"></div>
+      <div class="color-name">Blanco (#FFFFFF)</div>
+    </div>
+    <!-- Tonos básicos adicionales -->
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #FF0000;"></div>
+      <div class="color-name">Rojo Puro (#FF0000)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #007BFF;"></div>
+      <div class="color-name">Azul Brillante (#007BFF)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #FFA500;"></div>
+      <div class="color-name">Naranja (#FFA500)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #808080;"></div>
+      <div class="color-name">Gris Neutro (#808080)</div>
+    </div>
+    <!-- Tonos pastel -->
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #A8E6CF;"></div>
+      <div class="color-name">Verde Pastel (#A8E6CF)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #FFD1DC;"></div>
+      <div class="color-name">Rosa Pastel (#FFD1DC)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #FFFACD;"></div>
+      <div class="color-name">Amarillo Pastel (#FFFACD)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #DCC6E0;"></div>
+      <div class="color-name">Morado Pastel (#DCC6E0)</div>
+    </div>
+    <!-- Tonos tierra -->
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #8B4513;"></div>
+      <div class="color-name">Marrón Oscuro (#8B4513)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #A0522D;"></div>
+      <div class="color-name">Café (#A0522D)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #F5F5DC;"></div>
+      <div class="color-name">Beige (#F5F5DC)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #B87333;"></div>
+      <div class="color-name">Cobre (#B87333)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #FFD700;"></div>
+      <div class="color-name">Dorado (#FFD700)</div>
+    </div>
+    <!-- Tonos fríos -->
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #001F3F;"></div>
+      <div class="color-name">Azul Marino (#001F3F)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #87CEEB;"></div>
+      <div class="color-name">Azul Cielo (#87CEEB)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #00FFFF;"></div>
+      <div class="color-name">Cian (#00FFFF)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #40E0D0;"></div>
+      <div class="color-name">Turquesa (#40E0D0)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #98FF98;"></div>
+      <div class="color-name">Verde Menta (#98FF98)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #4B0082;"></div>
+      <div class="color-name">Morado Profundo (#4B0082)</div>
+    </div>
+    <!-- Tonos cálidos -->
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #FF4500;"></div>
+      <div class="color-name">Rojo Brillante (#FF4500)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #FF6347;"></div>
+      <div class="color-name">Naranja Fuerte (#FF6347)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #FFDAB9;"></div>
+      <div class="color-name">Durazno (#FFDAB9)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #FFC300;"></div>
+      <div class="color-name">Amarillo Dorado (#FFC300)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #FF7F50;"></div>
+      <div class="color-name">Coral (#FF7F50)</div>
+    </div>
+    <!-- Tonos neutros -->
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #D3D3D3;"></div>
+      <div class="color-name">Gris Claro (#D3D3D3)</div>
+    </div>
+     <div class="color-box">
+      <div class="color-sample" style="background-color: #696969;"></div>
+      <div class="color-name">Gris Oscuro (#696969)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #C0C0C0;"></div>
+      <div class="color-name">Plata (#C0C0C0)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #778899;"></div>
+      <div class="color-name">Gris Pizarra (#778899)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #708090;"></div>
+      <div class="color-name">Gris Pizarra Oscuro (#708090)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #A9A9A9;"></div>
+      <div class="color-name">Gris Oscuro Claro (#A9A9A9)</div>
+    </div>
+    <!-- Tonos metálicos -->
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #B0C4DE;"></div>
+      <div class="color-name">Azul Acero Claro (#B0C4DE)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #4682B4;"></div>
+      <div class="color-name">Acero Azul (#4682B4)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #5F9EA0;"></div>
+      <div class="color-name">Verde Cadmio (#5F9EA0)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #2F4F4F;"></div>
+      <div class="color-name">Gris Pizarra Oscuro (#2F4F4F)</div>
+    </div>
+    <!-- Tonos especiales -->
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #00CED1;"></div>
+      <div class="color-name">Turquesa Oscuro (#00CED1)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #20B2AA;"></div>
+      <div class="color-name">Turquesa Claro (#20B2AA)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #3CB371;"></div>
+      <div class="color-name">Verde Primavera Medio (#3CB371)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #8FBC8F;"></div>
+      <div class="color-name">Verde Bosque Claro (#8FBC8F)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #228B22;"></div>
+      <div class="color-name">Verde Bosque (#228B22)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #006400;"></div>
+      <div class="color-name">Verde Oscuro (#006400)</div>
+    </div>
+    <!-- Más tonos cálidos -->
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #FF69B4;"></div>
+      <div class="color-name">Rosa Intenso (#FF69B4)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #DB7093;"></div>
+      <div class="color-name">Rosa Pálido (#DB7093)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #B22222;"></div>
+      <div class="color-name">Rojo Fuego (#B22222)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #FF4500;"></div>
+      <div class="color-name">Naranja Rojo (#FF4500)</div>
+    </div>
+    <div class="color-box">
+      <div class="color-sample" style="background-color: #CD5C5C;"></div>
+      <div class="color-name">Rojo Indio (#CD5C5C)</div>
+    </div>
+  </div>
+</body>
+</html>
